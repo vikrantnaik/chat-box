@@ -1,0 +1,121 @@
+body{
+    text-decoration: none;
+}
+
+
+.back-container{
+    position: relative;
+  
+}
+
+.front-container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.chat-top {
+    background-color: rgb(231, 231, 250);
+    min-height: 50px;
+    
+}
+.front-container1{
+    position: absolute;
+    top: 50px;
+    left: 0;
+    right: 0;
+}
+.float-right{
+    float: right;
+    margin-top: 10px;
+    
+}
+
+b{
+    font-size: 25px;
+    
+}
+
+
+.ol{
+    width: 15px;
+    height: 15px;
+}
+.icon-blue{
+    color:#fff;
+    border-radius: 50%;
+  border: 3px solid blue;
+  background-color: blue;
+  float: right;
+  margin-top: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.contacts{
+    
+    min-height: 600px;
+}
+
+.search-input{
+    position: absolute;
+}
+
+
+.profile-image {
+    height: 35px;
+    width: 35px;
+}
+
+.smlg{
+    height: 15px;
+    position: absolute;
+    float: inline-start;
+    padding-left:unset;
+}
+.massage-area{
+    min-height: 600px;
+    background-color: #e5e5e5;
+}
+    .massage-box{
+           background-color: #F0F0F0;
+    }
+
+    .sbo{
+
+        background-color:whitesmoke;
+        cursor: pointer;
+    }
+    .info-eliz{
+        max-height: 600px;
+    }
+
+    .profile-image1 {
+        height: 200px;
+        width: 200px;
+        margin-top: 50px;
+        margin-left: 30px;
+    }
+    .licon{
+        cursor: pointer;
+    }
+
+    .sixcol{
+        background-color: #e5e5e5
+    }
+
+    .thrcol{
+        background-color:white;
+    }
+    
+    @media only screen and (max-width: 768px) {
+        [class*="col-"] {
+          width: 100%;
+        }
+      }
+
+       @media only screen and (max-width: 600px) {
+        div.fluid front-container {
+          font-size: 30px;
+        }
+      }
